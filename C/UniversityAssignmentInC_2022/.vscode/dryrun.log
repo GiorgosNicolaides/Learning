@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/giorgos/Documents/University/2 semester/Programmatismos 2/Programs/Assignment_1'
+gcc -Wall -Werror -Iinclude   -c -o src/main.o src/main.c
+gcc -Wall -Werror -Iinclude   -c -o src/student.o src/student.c
+gcc -Wall -Werror -Iinclude   -c -o src/list.o src/list.c
+gcc src/main.o src/student.o src/list.o -o bin/students
+make: Leaving directory '/home/giorgos/Documents/University/2 semester/Programmatismos 2/Programs/Assignment_1'
+ 
